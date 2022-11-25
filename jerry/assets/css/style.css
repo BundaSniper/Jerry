@@ -1,0 +1,53 @@
+body{
+    overflow-x: hidden;
+    color: white;
+    background-color: lightsk;
+    font-family: ubuntu;
+}
+@font-face {
+    font-family: ubuntu;
+    src: url(/assets/fonts/Ubuntu-Regular.ttf);
+  }
+  @font-face {
+    font-family: ubuntubold;
+    src: url(/assets/fonts/Ubuntu-Bold.ttf);
+  }
+::-webkit-scrollbar {
+    width: 0;
+    background: transparent;
+}
+
+#header{
+    margin-top: -10px; margin-left: -10px; margin-bottom: 0px; margin-right: 0px;
+    padding-left: 0px; padding-right: 0px; padding-top: 0px; padding-bottom: 0px;
+    height: 155px;
+    width: 100%;
+    position: fixed;
+    background-color: lightskyblue;
+    background-size: 100%;
+    background-image: url("/assets/images/sky.jpg");
+    font-family: ubuntubold;
+}
+#content{
+    height: 1400px;
+    margin-top: -10px; margin-left: -10px; margin-bottom: 0px; margin-right: 0px;
+    padding-left: 0px; padding-right: 0px; padding-top: 0px; padding-bottom: 0px;
+    width: 110%;
+    background-color:rgba(73,181,243,255);
+}
+#footer{
+    position: absolute;
+    top: 1400px;
+    margin-top: -10px; margin-left: -10px; margin-bottom: 0px; margin-right: 0px;
+    padding-left: 0px; padding-right: 0px; padding-top: 0px; padding-bottom: 0px;
+    height: 250px;
+    width: 110%;
+    background-image: url("/assets/images/grond2.png");
+    background-color: rgba(73,181,243,255);
+    background-repeat: repeat-x;
+    background-size: 1000px;
+    font-family: unset;
+}
+a{
+    color: white;
+}
